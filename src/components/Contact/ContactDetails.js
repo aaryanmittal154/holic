@@ -64,7 +64,7 @@ const ContactDetails = () => {
       question:
         "Can I request changes or revisions after the project delivery?",
       answer:
-        "Absolutely. We understand that you may need adjustments after seeing the finished product. That's why we offer a period for revisions, during which you can request changes to the project. However, the specifics of this would be discussed during the consultation stage.",
+        "Absolutely. We understand that you may need adjustments after seeing the finished product. Thats why we offer a period for revisions, during which you can request changes to the project. However, the specifics of this would be discussed during the consultation stage.",
     },
     {
       question: "Do you have expertise in specific technologies or industries?",

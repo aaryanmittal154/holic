@@ -40,13 +40,13 @@ const WebServices = () => {
     {
       name: "SEO Optimization",
       description:
-        "Boost your site's rankings and visibility on search engines with our expert SEO strategies.",
+        "Boost your rankings and visibility on search engines with our expert SEO strategies.",
       icon: <RiSearchEyeLine size={48} />,
     },
     {
       name: "Content Management System",
       description:
-        "Manage your website's content easily and effectively with our robust CMS solutions.",
+        "Manage your content easily and effectively with our robust CMS solutions.",
       icon: <AiOutlineCloudSync size={48} />,
     },
     {

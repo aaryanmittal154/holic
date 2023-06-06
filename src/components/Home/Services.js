@@ -20,7 +20,7 @@ export default function Services() {
     {
       title: "SEO Optimization",
       description:
-        "Boost your site's rankings and visibility on search engines with our expert SEO strategies.",
+        "Boost your rankings and visibility on search engines with our expert SEO strategies.",
       icon: "SEO",
     },
     {

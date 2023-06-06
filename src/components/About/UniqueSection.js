@@ -30,12 +30,12 @@ const UniqueSection = () => {
     },
     {
       title: "Custom Solutions for all:",
-      desc: "We understand that every business is unique. That's why we offer custom AI solutions tailored to meet your specific business needs.",
+      desc: "We understand that every business is unique. Thats why we offer custom AI solutions tailored to meet your specific business needs.",
       icon: <FaCogs size={30} />,
     },
     {
       title: "Commitment to Innovation:",
-      desc: "At Holic AI, we believe in constantly pushing the boundaries of what's possible. We're committed to staying at the forefront of technological advancements.",
+      desc: "At Holic AI, we believe in constantly pushing the boundaries of whats possible. We're committed to staying at the forefront of technological advancements.",
       icon: <FaLightbulb size={30} />,
     },
     {

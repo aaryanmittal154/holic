@@ -51,8 +51,8 @@ const Hero = () => {
           className="mt-6 text-xl leading-relaxed text-indigo-200 text-center sm:text-3xl"
           variants={itemVariants}
         >
-          We're ready to lead you into the future of AI and tech consulting.
-          Let's work together!
+          We are ready to lead you into the future of AI and tech consulting.
+          Lets work together!
         </motion.p>
       </div>
     </motion.section>

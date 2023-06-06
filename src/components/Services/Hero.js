@@ -47,7 +47,7 @@ export default function Hero() {
               Ignite your digital journey with our custom-crafted web and mobile
               solutions. Experience the perfect fusion of creativity,
               technology, and bespoke design. Your imagination, our innovation.
-              Let's make it uniquely yours!
+              Lets make it uniquely yours!
             </motion.p>
             <motion.div
               variants={itemVariants}
