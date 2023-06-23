@@ -82,6 +82,13 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="https://www.holicai.com/">
+                  <div className="text-sm text-gray-300 hover:text-white">
+                    Course
+                  </div>
+                </Link>
+              </li>
+              <li>
                 <Link href="/contact">
                   <div className="text-sm text-gray-300 hover:text-white">
                     Contact Us
