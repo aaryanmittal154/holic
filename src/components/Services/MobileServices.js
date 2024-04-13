@@ -52,26 +52,29 @@ const MobileServices = () => {
             style={neonText}
             className="text-base font-semibold tracking-wide uppercase"
           >
-            Mobile Services - Coming Soon
+            Insight Engine - Coming Soon
           </motion.h2>
           <motion.p
             style={neonText}
             className="mt-2 text-3xl leading-8 font-extrabold tracking-tight sm:text-4xl"
           >
-            Expanding to Mobile Applications
+            Advanced Predictive Analytics for Web Interactions
           </motion.p>
           <p className="mt-4 max-w-2xl text-xl text-white lg:mx-auto text-justify">
-            Get set for a groundbreaking announcement - we are entering the
-            thrilling sphere of mobile applications! As part of our mission to
-            provide seamless, on-the-go access, we are packing the best of our
-            services into an intuitive app that will transform your digital
-            interactions.
+            We are thrilled to announce the upcoming launch of Insight Engine, a
+            revolutionary web service designed to transform how businesses
+            understand and engage with their online audiences. Insight Engine
+            leverages cutting-edge predictive analytics and AI to analyze web
+            interaction data in real-time, providing deep insights that predict
+            user behavior and enhance decision-making.
           </p>
           <p className="mt-4 max-w-2xl text-xl text-white lg:mx-auto text-justify">
-            Immerse yourself in a smooth, immersive user experience that is
-            coming your way, driven by our relentless innovation and technical
-            expertise. Something spectacular is about to drop on your screens.
-            Stay tuned!
+            This powerful tool will enable you to anticipate customer needs,
+            optimize user experience, and increase conversion rates by
+            delivering personalized content and recommendations before users
+            even request them. Insight Engine has intuitive dashboards and
+            reporting tools make it easy to harness the power of big data for
+            strategic advantage. Stay tuned!
           </p>
         </div>
         {/* ...rest of your content */}

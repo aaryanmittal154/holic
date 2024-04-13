@@ -1,38 +1,49 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import { BiMobile, BiTransfer, BiBuildingHouse, BiGlobe } from "react-icons/bi";
+import {
+  BiMobile,
+  BiTransfer,
+  BiBuildingHouse,
+  BiGlobe,
+  BiRobot,
+  BiShieldQuarter,
+  BiTargetLock,
+  BiChart,
+  BiCog,
+  BiWrench,
+} from "react-icons/bi";
+import { RiCustomerService2Line } from "react-icons/ri";
 
 const features = [
   {
     id: 1,
-    title: "Responsive Design",
+    title: "Business Intelligence and Analytics",
     description:
-      "We ensure your website looks great on all devices, improving user experience and accessibility.",
-    icon: BiMobile,
+      "Our AI tools analyze vast amounts of data to deliver profound insights, helping you make informed decisions that drive business growth. This includes predictive analytics and trend identification to stay ahead in your industry.",
+    icon: BiChart, // Placeholder, replace with actual icon import
   },
   {
     id: 2,
-    title: "UI/UX Design",
+    title: "Automated Customer Support",
     description:
-      "Our designs prioritize usability and user satisfaction, leading to higher engagement rates.",
-    icon: BiTransfer,
+      "We deploy AI-driven chatbots that are capable of operating 24/7, ensuring that your customer service is always responsive, reducing wait times and improving overall satisfaction.",
+    icon: RiCustomerService2Line, // Placeholder, replace with actual icon import
   },
   {
     id: 3,
-    title: "Brand Integration",
+    title: "Fraud Detection and Security",
     description:
-      "We create designs that align seamlessly with your brand, reinforcing brand identity and consistency.",
-    icon: BiBuildingHouse,
+      "Utilizing cutting-edge AI algorithms, our systems enhance your security measures by providing real-time fraud detection across all platforms, safeguarding your transactions and sensitive data.",
+    icon: BiShieldQuarter, // Placeholder, replace with actual icon import
   },
   {
     id: 4,
-    title: "SEO-Friendly",
+    title: "Personalized Marketing",
     description:
-      "Our websites are designed to be search engine friendly to help improve your online visibility.",
-    icon: BiGlobe,
+      "By leveraging AI, we craft marketing strategies that adapt in real-time to consumer behavior and preferences, significantly improving engagement and conversion rates through highly targeted content.",
+    icon: BiTargetLock, // Placeholder, replace with actual icon import
   },
-  // Add more features as needed
 ];
 
 const futuristicText = {
@@ -62,7 +73,7 @@ const WebDesignFeatures = () => {
           className="text-3xl font-extrabold text-white sm:text-4xl"
           style={futuristicText}
         >
-          Features & Benefits of Our Web Design Services
+          Unique Features & Benefits
         </h2>
         <div className="mt-10 grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
           {features.map((feature) => {

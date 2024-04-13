@@ -12,28 +12,40 @@ export default function Services() {
 
   const services = [
     {
+      title: "Automated Customer Support",
+      description:
+        "Deploy AI-driven chatbots to offer 24/7 customer support and instant responses, streamlining client interactions.",
+      icon: "🤖",
+    },
+    {
+      title: "Fraud Detection and Security",
+      description:
+        "Utilize cutting-edge AI algorithms to enhance your security measures, preventing fraud across all platforms.",
+      icon: "🛡️",
+    },
+    {
+      title: "Personalized Marketing",
+      description:
+        "Implement AI to craft tailored marketing strategies that dynamically adjust to consumer behavior and preferences.",
+      icon: "🎯",
+    },
+    {
+      title: "Business Intelligence and Analytics",
+      description:
+        "Harness powerful AI tools to analyze vast amounts of data, offering profound insights that drive business growth.",
+      icon: "📊",
+    },
+    {
       title: "Web Development",
       description:
         "From front-end to back-end, we develop websites that are scalable, secure and user-friendly.",
-      icon: "WD",
-    },
-    {
-      title: "SEO Optimization",
-      description:
-        "Boost your rankings and visibility on search engines with our expert SEO strategies.",
-      icon: "SEO",
-    },
-    {
-      title: "Digital Marketing",
-      description:
-        "Reach your target audience and increase your sales with our digital marketing strategies.",
-      icon: "DM",
+      icon: "🌐",
     },
     {
       title: "Mobile App Development",
       description:
         "We develop mobile apps that are fast, responsive and user-friendly. We also offer cross-platform development.",
-      icon: "MD",
+      icon: "📱",
     },
   ];
 

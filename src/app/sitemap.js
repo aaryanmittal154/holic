@@ -1,19 +1,19 @@
 export default function sitemap() {
   return [
     {
-      url: "https://holicai.tech/",
+      url: "https://www.holic.ai/",
       lastModified: new Date(),
     },
     {
-      url: "https://holicai.tech/about",
+      url: "https://www.holic.ai/about",
       lastModified: new Date(),
     },
     {
-      url: "https://holicai.tech/services",
+      url: "https://www.holic.ai/services",
       lastModified: new Date(),
     },
     {
-      url: "https://holicai.tech/contact",
+      url: "https://www.holic.ai/contact",
       lastModified: new Date(),
     },
   ];

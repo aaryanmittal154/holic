@@ -7,10 +7,19 @@ import {
   AiOutlineCode,
   AiOutlineCloudSync,
   AiOutlineSetting,
+  AiOutlineRobot,
+  AiOutlineShield,
+  AiOutlineBulb,
+  AiOutlineBarChart,
+  AiOutlineMobile,
 } from "react-icons/ai";
 import { FiLayout, FiShoppingCart } from "react-icons/fi";
 import { RiSearchEyeLine } from "react-icons/ri";
 import { BiRocket } from "react-icons/bi";
+import { MdOutlinePhoneAndroid } from "react-icons/md";
+import { MdOutlineSecurity } from "react-icons/md";
+import { FaRegLightbulb } from "react-icons/fa";
+import { LuBarChart4 } from "react-icons/lu";
 
 const futuristicText = {
   textShadow:
@@ -32,28 +41,34 @@ const WebServices = () => {
 
   const services = [
     {
-      name: "Web Design",
+      name: "Business Intelligence and Analytics",
       description:
-        "We create visually stunning, highly usable and accessible designs that help your brand stand out.",
-      icon: <FiLayout size={48} />,
+        "Harness powerful AI tools to analyze vast amounts of data, offering profound insights that drive business growth.",
+      icon: <LuBarChart4 size={48} />,
     },
     {
-      name: "SEO Optimization",
+      name: "Fraud Detection and Security",
       description:
-        "Boost your rankings and visibility on search engines with our expert SEO strategies.",
-      icon: <RiSearchEyeLine size={48} />,
-    },
-    {
-      name: "Content Management System",
-      description:
-        "Manage your content easily and effectively with our robust CMS solutions.",
-      icon: <AiOutlineCloudSync size={48} />,
+        "Utilize cutting-edge AI algorithms to enhance your security measures, preventing fraud across all platforms.",
+      icon: <MdOutlineSecurity size={48} />,
     },
     {
       name: "Web Development",
       description:
         "From front-end to back-end, we develop websites that are scalable, secure and user-friendly.",
       icon: <AiOutlineCode size={48} />,
+    },
+    {
+      name: "Mobile App Development",
+      description:
+        "Develop mobile apps that are fast, responsive and user-friendly. We also offer cross-platform development.",
+      icon: <MdOutlinePhoneAndroid size={48} />,
+    },
+    {
+      name: "Web Design",
+      description:
+        "We create visually stunning, highly usable and accessible designs that help your brand stand out.",
+      icon: <FiLayout size={48} />,
     },
     {
       name: "E-Commerce Solutions",
@@ -66,6 +81,24 @@ const WebServices = () => {
       description:
         "Reach your target audience and increase your sales with our digital marketing strategies.",
       icon: <AiOutlineSetting size={48} />,
+    },
+    {
+      name: "Personalized Marketing",
+      description:
+        "Implement AI to craft tailored marketing strategies that dynamically adjust to consumer behavior and preferences.",
+      icon: <FaRegLightbulb size={48} />,
+    },
+    {
+      name: "SEO Optimization",
+      description:
+        "Boost your rankings and visibility on search engines with our expert SEO strategies.",
+      icon: <RiSearchEyeLine size={48} />,
+    },
+    {
+      name: "Content Management System",
+      description:
+        "Manage your content easily and effectively with our robust CMS solutions.",
+      icon: <AiOutlineCloudSync size={48} />,
     },
   ];
 
@@ -91,7 +124,7 @@ const WebServices = () => {
             className="text-2xl text-neon-green font-semibold tracking-wide uppercase"
             style={futuristicText}
           >
-            Web Services
+            Services
           </h2>
           <p className="mt-2 text-4xl leading-8 font-extrabold tracking-tight text-white sm:text-5xl">
             Empowering your online presence
