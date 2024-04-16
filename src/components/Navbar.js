@@ -51,6 +51,12 @@ export default function Header() {
             Services
           </a>
           <a
+            href="https://www.projectneutralize.com/"
+            className="mx-4 py-2 px-3 rounded hover:bg-gray-800 transition-colors duration-300"
+          >
+            Neutralize
+          </a>
+          <a
             href="https://www.holicai.com/"
             className="mx-4 py-2 px-3 rounded hover:bg-gray-800 transition-colors duration-300"
           >
@@ -60,7 +66,7 @@ export default function Header() {
             href="/contact"
             className="mx-4 py-2 px-3 rounded hover:bg-gray-800 transition-colors duration-300"
           >
-            Contact Us
+            Contact
           </a>
         </div>
       </nav>
