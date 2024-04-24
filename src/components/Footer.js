@@ -48,7 +48,7 @@ export default function Footer() {
             </h5>
             <ul className="mt-2 space-y-2">
               <li>
-                <p className="text-sm text-gray-300">Email: team@holicai.com</p>
+                <p className="text-sm text-gray-300">Email: aaryan@holicai.com</p>
               </li>
               {/* <li>
                 <p className="text-sm text-gray-300">Phone: +1 123 456 7890</p>

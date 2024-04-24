@@ -38,7 +38,7 @@ const ContactDetails = () => {
   const faqs = [
     {
       question: "How can I get in touch with you?",
-      answer: "You can reach us at team@holicai.com",
+      answer: "You can reach us at aaryan@holicai.com",
     },
     {
       question: "How is the pricing determined for a project?",
